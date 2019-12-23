@@ -1,6 +1,24 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from 'styled-components'
+
+const StyledHeader = styled.div`
+  background-color: #purple;
+  background: linear-gradient(-45deg, purple, blue);
+  background-size: 100% 100%;
+  color: white;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  header {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+`;
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,6 +27,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
     }}
   >
+    <StyledHeader></StyledHeader>
     <div
       style={{
         margin: `0 auto`,
