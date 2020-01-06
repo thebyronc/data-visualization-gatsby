@@ -74,12 +74,7 @@ const StyledBackground = styled.div`
 `;
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <header>
     <StyledHeader>
       <StyledBackground>
         <span></span>
