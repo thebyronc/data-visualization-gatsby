@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React, { Component } from "react"
 import styled from 'styled-components'
 import ApexCharts from 'react-apexcharts'
+import MonoChrom from './themes/example'
 
 const StyledChart = styled.div`
   background-color: white;
@@ -38,6 +39,16 @@ class Spline extends Component {
         tooltip: {
           x: {
             format: 'dd/MM/yy HH:mm'
+          },
+        },
+        theme: {
+          mode: 'dark', 
+          palette: 'palette2', 
+          monochrome: {
+            enabled: true,
+            color: '#255aee',
+            shadeTo: 'light',
+            shadeIntensity: 0.65
           },
         },
       },
