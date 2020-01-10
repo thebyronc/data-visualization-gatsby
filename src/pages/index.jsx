@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/Image"
+import Layout from "../components/layout/layout"
+// import Image from "../components/Image"
 import SEO from "../components/seo"
 
 import Spline from "../components/charts/spline"
+import BasicBar from "../components/charts/basicbar"
+import LineColumn from "../components/charts/LineColumn"
 
 const IndexPage = () => (
   <Layout>
@@ -17,7 +19,9 @@ const IndexPage = () => (
       <Image />
     </div> */}
     <Spline></Spline>
-    <Link to="/page-2/">Go to page 2</Link>
+    <BasicBar></BasicBar>
+    <LineColumn></LineColumn>
+    
   </Layout>
 )
 

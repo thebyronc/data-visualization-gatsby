@@ -8,7 +8,7 @@ const StyledBackground = styled.div`
   position: absolute;
   width: 100%;
   height: 100%;
-  height: 75vh;
+  height: 760px;
   top: -80px;
   -webkit-transform: skewY(12deg);
   transform: skewY(12deg);
