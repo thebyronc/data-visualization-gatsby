@@ -14,3 +14,6 @@ npm install
 ```
 
 To start developing, run `gatsby develop` this page will be available locally at [http://localhost:8000/](http://localhost:8000/) 
+
+## Apex Charts
+Refer to [Apex Charts](https://apexcharts.com/) for documentation and how to use.
