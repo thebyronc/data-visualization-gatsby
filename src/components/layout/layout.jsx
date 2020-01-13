@@ -14,7 +14,7 @@ import Header from "../header"
 import "./layout.css"
 
 import AppBar from '../appbar/appbar'
-
+import "typeface-nunito-sans"
 
 
 const StyledWrapper = styled.div`

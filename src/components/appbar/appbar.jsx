@@ -15,7 +15,7 @@ const StyledAppBar = styled.div`
 
 const AppBar = ({ incomingData }) => (
   <StyledAppBar>
-    <p>text</p>
+    <h1>The spectacle</h1>
     <Link to="/page-2/">Go to page 2</Link>
   </StyledAppBar>
 )
