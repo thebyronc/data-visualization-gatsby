@@ -42,7 +42,7 @@ class Spline extends Component {
           },
         },
         theme: {
-          mode: 'dark', 
+          mode: 'light', 
           palette: 'palette2', 
           monochrome: {
             enabled: true,

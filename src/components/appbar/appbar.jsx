@@ -8,6 +8,9 @@ const StyledAppBar = styled.div`
   width: 250px;
   height: 100vh;
   padding: 16px;
+  position: fixed;
+  left: 0;
+  top: 0;
 `;
 
 const AppBar = ({ incomingData }) => (

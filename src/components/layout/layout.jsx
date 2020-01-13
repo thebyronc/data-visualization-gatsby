@@ -24,9 +24,10 @@ const StyledWrapper = styled.div`
 
 const StyledMain = styled.div`
   padding: 16px; 
-  height: 100vh;
-  overflow-y: auto;
+  margin-left: 250px;
+  height: 100%;
   width: 100%;
+  position: relative;
 `;
 
 const Layout = ({ children }) => {
