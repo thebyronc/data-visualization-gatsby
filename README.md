@@ -17,3 +17,7 @@ To start developing, run `gatsby develop` this page will be available locally at
 
 ## Apex Charts
 Refer to [Apex Charts](https://apexcharts.com/) for documentation and how to use.
+
+## Google Fonts
+Nunito Sans
+Open Sans

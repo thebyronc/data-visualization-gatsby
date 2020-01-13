@@ -8,11 +8,14 @@ const StyledAppBar = styled.div`
   width: 250px;
   height: 100vh;
   padding: 16px;
+  position: fixed;
+  left: 0;
+  top: 0;
 `;
 
 const AppBar = ({ incomingData }) => (
   <StyledAppBar>
-    <p>text</p>
+    <h1>The spectacle</h1>
     <Link to="/page-2/">Go to page 2</Link>
   </StyledAppBar>
 )
