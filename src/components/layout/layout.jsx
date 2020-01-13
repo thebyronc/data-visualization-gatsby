@@ -15,6 +15,7 @@ import "./layout.css"
 
 import AppBar from '../appbar/appbar'
 import "typeface-nunito-sans"
+import "typeface-open-sans"
 
 
 const StyledWrapper = styled.div`
